@@ -212,10 +212,11 @@ span.artist-artistVerifiedBadge-badge svg > path:last-of-type {
 .main-cardImage-imagePlaceholder, .main-cardImage-image {
     border-radius: var(--cover-border-radius);
 }
-/* .main-card-PlayButtonContainer, .main-card-PlayButtonContainerVisible {
-    color: white;
-    background-color: white;
-} */
+.main-card-PlayButtonContainer > svg {
+    color: #00ffff;
+    background-color: #00ffff ;
+    
+}
 
 .main-rootlist-rootlistDivider {
     background-color: unset;
